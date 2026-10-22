@@ -4,18 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>College Pool League</title>
+  <title>Oriel JCR Pool League</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <main>
-    <h1>🎱 College Pool League</h1>
-    <p>Welcome to the 2026/27 pool tournament!</p>
-    <h2>League Standings</h2>
-    <div id="leaderboard">
-      <p>Leaderboard coming soon...</p>
-    </div>
+  <main class="container">
+    <header>
+      <div class="eyebrow">ORIEL COLLEGE · OXFORD</div>
+      <h1>JCR Pool League</h1>
+      <p>Official league standings</p>
+    </header>
+
+    <section class="leaderboard">
+      <div class="table-heading">
+        <h2>League Table</h2>
+        <span id="status">Loading rankings...</span>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody id="rankings">
+          <tr><td colspan="3">Loading...</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      Oriel College JCR · Pool League
+    </footer>
   </main>
 </body>
 </html>
