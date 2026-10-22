@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101d2a;
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 24px;
+}
+
+h1 {
+  color: #f5c65d;
+}
+
+#leaderboard {
+  background: #1c3041;
+  border-radius: 12px;
+  padding: 24px;
+}
