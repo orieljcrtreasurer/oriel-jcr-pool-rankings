@@ -119,3 +119,28 @@ footer {
     flex-direction: column;
   }
 }
+
+
+/* Return button */
+
+.return-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #274633;
+  color: #e5c46a;
+  border: 1px solid #d9bb72;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.return-button:hover {
+  background: #365c43;
+}
+
+.return-button:focus-visible {
+  outline: 2px solid #e5c46a;
+  outline-offset: 3px;
+}
